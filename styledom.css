@@ -1,0 +1,132 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(spencer-davis-ONVA6s03hg8-unsplash.jpg);
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+
+}
+header:hover{
+    background-image: url(Screenshot\ 2024-04-21\ 184210.png);
+    color: white;
+    }
+
+#audioplay{
+align-items: center;
+}
+header {
+border-color: #333;
+    color:white;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration:wavy;
+    font-family: serif;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    background-image: url(IMG_6836.JPG);
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    background-color:lavenderblush;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+form h2{color: #fff;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+form label {
+    display: block;
+    margin: 1em 0 0.5em;
+    color:whitesmoke;
+    font-family: fantasy;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+form:hover{
+    background-image: url(IMG_3593.JPG);
+    height: auto;
+    width: auto;
+}
+form button:hover {
+    background-color:goldenrod;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+section h2{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: alternate-reverse 3s step-start 1s  2 forwards;
+}
+section h2:hover{
+    color:powderblue;
+}
+table, th, td {
+    border: 1px solid purple;
+    background-color: aliceblue;
+}
+
+th, td {
+    padding: 1em;
+    text-align: left;
+}
+
+th {
+    background-color:lavender;
+}
+.audioplay audio{
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    display:inline-block;
+    margin-left: 800px;
+}

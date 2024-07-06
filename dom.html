@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="styledom.css">
+    <script src="javascriptdom.js"></script>
+</head>
+<body>
+    <header>
+        <img src="icon.jpg" height="70" width="70">
+        <nav>
+            <h1>Student registration System</h1>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#register">Register Student</a></li>
+                 <li><a href="#records">Student Records</a></li>
+                 <li><a href="IMG_6836.JPG">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="audioplay"> 
+            <audio controls preload="auto">
+            <source src="this is CINEMATOGRAPHY.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+       
+        <section id="register">
+            <form id="studentForm">
+                <h2>Register Student</h2>
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+                <label for="studentID">Student ID:</label>
+                <input type="number" id="studentID" name="studentID" required>
+                <label for="emailID">Email ID:</label>
+                <input type="email" id="emailID" name="emailID" required>
+                <label for="contactNo">Contact No:</label>
+                <input type="tel" id="contactNo" name="contactNo" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+       
+        <section id="records">
+                <h2>Student Records</h2> 
+                <table>
+           
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student ID</th>
+                        <th>Email ID</th>
+                        <th>Contact No</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentRecords">
+                    <!-- Records will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+      
+    </main>
+   
+</body>
+</html>
